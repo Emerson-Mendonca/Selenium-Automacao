@@ -7,47 +7,35 @@ formatter.feature({
 formatter.scenario({
   "name": "Realizar e modificar o Statos do postite",
   "description": "",
-  "keyword": "Cenario",
+  "keyword": "Cenário",
   "tags": [
     {
       "name": "@Trello"
     }
   ]
 });
-formatter.before({
-  "status": "passed"
-});
 formatter.step({
   "name": "que ao loga no trello email \"trello-selenium@mailsac.com\" e senha \"Trello10@#\".",
   "keyword": "Dado "
 });
-formatter.match({
-  "location": "Teste2.queAoLogaNoTrelloEmailESenha(String,String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "Valida o nome do usuario \"trello-selenium (userselenium1)\".",
   "keyword": "E "
 });
-formatter.match({
-  "location": "Teste2.validaONomeDoUsuario(String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "desloga usuario.",
   "keyword": "Então "
 });
-formatter.match({
-  "location": "Teste2.deslogaUsuario()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
+  "status": "undefined"
 });
 });

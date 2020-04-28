@@ -3,86 +3,39 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2020-04-27T06:20:28.018Z",
-        "before": [
-          {
-            "result": {
-              "duration": 9041302600,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Teste2.setUpBeforeClass()"
-            }
-          }
-        ],
+        "start_timestamp": "2020-04-27T22:09:09.038Z",
         "line": 7,
         "name": "Realizar e modificar o Statos do postite",
         "description": "",
         "id": "trello-automation;realizar-e-modificar-o-statos-do-postite",
-        "after": [
-          {
-            "result": {
-              "duration": 1190553800,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Teste2.tearDownClass()"
-            }
-          }
-        ],
         "type": "scenario",
-        "keyword": "Cenario",
+        "keyword": "Cenário",
         "steps": [
           {
             "result": {
-              "duration": 16070142900,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 8,
             "name": "que ao loga no trello email \"trello-selenium@mailsac.com\" e senha \"Trello10@#\".",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"trello-selenium@mailsac.com\"",
-                  "offset": 28
-                },
-                {
-                  "val": "\"Trello10@#\"",
-                  "offset": 66
-                }
-              ],
-              "location": "Teste2.queAoLogaNoTrelloEmailESenha(String,String)"
-            },
+            "match": {},
             "keyword": "Dado "
           },
           {
             "result": {
-              "duration": 15607431100,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 9,
             "name": "Valida o nome do usuario \"trello-selenium (userselenium1)\".",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"trello-selenium (userselenium1)\"",
-                  "offset": 25
-                }
-              ],
-              "location": "Teste2.validaONomeDoUsuario(String)"
-            },
+            "match": {},
             "keyword": "E "
           },
           {
             "result": {
-              "duration": 8512495600,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 10,
             "name": "desloga usuario.",
-            "match": {
-              "location": "Teste2.deslogaUsuario()"
-            },
+            "match": {},
             "keyword": "Então "
           }
         ],
