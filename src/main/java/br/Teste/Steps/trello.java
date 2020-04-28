@@ -15,7 +15,7 @@ import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.E;
 import io.cucumber.java.pt.Então;
 
-public class Trello {
+public class trello {
 
     private WebDriver driver;
 
