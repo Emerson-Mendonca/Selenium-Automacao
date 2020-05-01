@@ -1,3 +1,2 @@
 * linguist-vendored
-*.javascript  linguist-vendored=false
-*.java        linguist-vendored=true
+*.java linguist-vendored=true
