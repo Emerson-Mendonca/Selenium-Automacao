@@ -1,2 +1,3 @@
 static/* linguist-vendored
-*.javascript linguist-detectable=true
+*.java linguist-detectable=true
+* .javascript linguist-vendored=false
