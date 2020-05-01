@@ -1,3 +1,2 @@
-* linguist-vendored
-*.java linguist-language=java
-*.javascript linguist-vendored=false
+    # .gitattributes file which reclassifies `.js` files as Java:
+     *.js linguist-language=Java
